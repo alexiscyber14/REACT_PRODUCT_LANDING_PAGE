@@ -1,38 +1,184 @@
-.App {
+body{
+  margin: 0;
+}
+section .container{
+  background-color:rgb(242, 240, 240);
+  height: 100vh;
+}section .content-container{
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  align-items: center;
+}section .container .content-container .content{
+width: 80%;
+display: flex;
+position: relative;
+margin-left: 5%;
+margin-top: 0%;
+overflow: hidden;
+flex-direction: column;
+align-items: center;
+}
+section .container .content-container .content h2{
   text-align: center;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 4%;
+  text-transform: capitalize;
+  font-size: 50px;
+  color: rgb(53, 52, 52);
+}
+section .container .content-container .content p{
+  text-align: left;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  font-size: 15px;
+  width: 69%;
+  color: rgb(53, 52, 52);
+
+}
+section .container .content-container .content .buttons{
+  display:flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 5%;
+  padding-left: 26%;        
+}
+section .container .content-container .content .buttons button{
+  background-color:rgb(11, 116, 177);
+  border: none;
+  color: white;
+  padding: 1% 14%;
+  margin-left: 2%;
+  font-size: 15px;
+
+}    section .container .content-container .content .buttons button:nth-child(even){
+  background-color:rgb(240, 241, 242);
+  border: none;
+  color: rgb(78, 77, 77);
+  border: 2px solid black;
+  font-size: 15px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+section .container .content-container .content .buttons button:nth-child(even):hover{
+  color: white;
+  border: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+section .container .content-container .content .buttons button:hover{
+  background-color: rgb(27, 161, 202);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+section .container .content-container .content .imager{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 0%;
+  margin-top: 5%;
+} section .container .content-container .content .imager p{
+  margin: 0px;
+  text-transform: capitalize;
+  margin-left: 1%;
+}
+section .container .content-container .content .blender-tiles{
+display: flex;
+flex-direction: row;
+align-items: center;
+margin-top:0%;
+}
+section .container .content-container .content .blender-tiles a{
+margin: 1%;
+padding: 1%;
+border: 1px solid rgb(206, 206, 206);
+}section .container .content-container .content .blender-tiles a:hover{
+border: 1px solid rgb(125, 125, 125);
+}
+section .container .content-container .content .blender-tiles img{
+width: 105px;
+height: 85px;
 }
 
-.App-link {
-  color: #61dafb;
+section .container .blender1{
+position:relative;
+display: flex;
+flex-direction: column;
+align-items:flex-end;
+
+}
+section .container .blender1 img{
+  width: 77%;
+  margin-top: 8%;
+  background-color: rgb(242, 240, 240);
+}
+section header{
+top: 0;
+background-color:white;
+width: 100%;
+display: flex;
+flex-direction: row;
+align-items: center;
+
+}section header .logos{
+width: 20%;
+}section header .logos h1{
+margin: 0;
+padding: 0;
+text-align: center;
+font-family:'Poppins', sans-serif;
+letter-spacing: 3px;
+}
+section header .links{
+display: flex;
+flex-direction: row;
+align-items: center;    
+justify-content: space-around;
+width: 80%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+section header .links ul{
+display: flex;
+flex-direction:row;
+align-items: center;width: 60%;
+justify-content: space-around;
+list-style: none;
 }
+section header .links ul li{
+padding:0.1% 2%;
+border-bottom: 2px solid rgba(255, 255, 255, 0.296);
+}section header .links ul li:hover{
+padding:0.1% 2%;
+}section header .links ul li:hover{
+border-bottom: 2px solid rgba(110, 110, 110, 0.849);
+}
+section header .links ul li a{
+text-decoration: none;
+text-transform: uppercase;
+font-size: 12px;
+font-weight: bold;
+letter-spacing: 2px;
+font-family: 'Poppins', sans-serif;
+color: rgb(88, 88, 88);
+}
+  form{
+      padding: 5px 5px;
+      border-radius: 6px;
+  }form input{
+height: 20px;
+padding-left: 10px;
+border: 1px solid grey;
+border-radius: 6px;
+outline: none;
+  }
+
+  form .submit{
+      border-radius: 360px;
+      border: none;
+      height: 25px;
+      margin-left: 10px;
+      width: 25px;
+      border: 1px solid grey;
+      box-shadow: 2px 2px 8px grey;
+  }form .submit i{
+      font-size: 13px;
+  }
+  .activated{
+    border-bottom: 2px solid rgba(110, 110, 110, 0.849);
+  }
