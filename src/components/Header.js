@@ -4,9 +4,9 @@ import '../App.css'
 const Header =()=>{
     const [activeIndex, setActiveIndex] = useState(0);
     useEffect(() => {
-      if (window.location.pathname === '/home') {
+      if (window.location.pathname === '/') {
         setActiveIndex(1);
-      } else if (window.location.pathname === '/models') {
+      } else if (window.location.pathname === '/') {
         setActiveIndex(2);
       }
     }, []);
