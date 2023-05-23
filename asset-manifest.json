@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/REACT_PRODUCT_LANDING_PAGE/static/css/main.9b84450b.css",
+    "main.js": "/REACT_PRODUCT_LANDING_PAGE/static/js/main.adc5ce5b.js",
+    "static/js/787.28525a86.chunk.js": "/REACT_PRODUCT_LANDING_PAGE/static/js/787.28525a86.chunk.js",
+    "static/media/b2.png": "/REACT_PRODUCT_LANDING_PAGE/static/media/b2.13ec6feb7ca5ca00aba9.png",
+    "static/media/ken1.jpg": "/REACT_PRODUCT_LANDING_PAGE/static/media/ken1.720738094edf155b4940.jpg",
+    "static/media/ken3.jpeg": "/REACT_PRODUCT_LANDING_PAGE/static/media/ken3.bc567d43b1fdf4d11190.jpeg",
+    "static/media/ken2.jpg": "/REACT_PRODUCT_LANDING_PAGE/static/media/ken2.e7b7d3f2d389351efad4.jpg",
+    "static/media/ken4.jpeg": "/REACT_PRODUCT_LANDING_PAGE/static/media/ken4.d3b3b9140b18b85ea5ff.jpeg",
+    "index.html": "/REACT_PRODUCT_LANDING_PAGE/index.html",
+    "main.9b84450b.css.map": "/REACT_PRODUCT_LANDING_PAGE/static/css/main.9b84450b.css.map",
+    "main.adc5ce5b.js.map": "/REACT_PRODUCT_LANDING_PAGE/static/js/main.adc5ce5b.js.map",
+    "787.28525a86.chunk.js.map": "/REACT_PRODUCT_LANDING_PAGE/static/js/787.28525a86.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9b84450b.css",
+    "static/js/main.adc5ce5b.js"
+  ]
+}
